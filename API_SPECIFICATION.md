@@ -67,7 +67,7 @@ https://[dhis2-domain]/api/v1/death-notifications
     "healthFacility": {
       "facilityCode": "HF001",
       "facilityName": "Central Hospital",
-      "county": "Nairobi"
+      "county": "Nairobi" // clarify this
     }
   },
   "medicalInfo": {
