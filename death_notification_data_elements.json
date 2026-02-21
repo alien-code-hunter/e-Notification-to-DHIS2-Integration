@@ -1,0 +1,458 @@
+{
+  "dataElements": [
+    {
+      "id": "deathNotifPatID",
+      "name": "Death Notification - Patient ID",
+      "shortName": "Death_PatID",
+      "description": "Unique patient identifier from e-Notification system",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifDateDeath",
+      "name": "Death Notification - Date of Death",
+      "shortName": "Death_DateDeath",
+      "description": "Date when death occurred",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifPatientName",
+      "name": "Death Notification - Patient Name",
+      "shortName": "Death_PatLastName",
+      "description": "Patient's full name or surname",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifAge",
+      "name": "Death Notification - Age at Death",
+      "shortName": "Death_Age",
+      "description": "Age of patient at time of death",
+      "valueType": "NUMBER",
+      "aggregationType": "SUM",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifSex",
+      "name": "Death Notification - Sex",
+      "shortName": "Death_Sex",
+      "description": "Biological sex of deceased patient",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "optionSet": {
+        "id": "deathSexOptions"
+      },
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifDOB",
+      "name": "Death Notification - Date of Birth",
+      "shortName": "Death_DOB",
+      "description": "Date of birth of deceased patient",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifPrimaryCOD",
+      "name": "Death Notification - Primary Cause of Death",
+      "shortName": "Death_PrimaryCOD",
+      "description": "Primary cause of death (ICD-10 code recommended)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "optionSet": {
+        "id": "deathPrimaryCODOptions"
+      },
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifSecondaryCOD",
+      "name": "Death Notification - Secondary Cause of Death",
+      "shortName": "Death_SecondaryCOD",
+      "description": "Secondary/underlying causes of death",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifPlaceDeath",
+      "name": "Death Notification - Place of Death",
+      "shortName": "Death_PlaceDeath",
+      "description": "Location where death occurred",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "optionSet": {
+        "id": "deathPlaceOptions"
+      },
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifHealthFacility",
+      "name": "Death Notification - Health Facility",
+      "shortName": "Death_HealthFacility",
+      "description": "Health facility where death occurred or was reported",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "optionSet": {
+        "id": "deathFacilityOptions"
+      },
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifAdmitDate",
+      "name": "Death Notification - Date of Admission",
+      "shortName": "Death_AdmitDate",
+      "description": "Date patient was admitted to health facility",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifLengthStay",
+      "name": "Death Notification - Length of Stay",
+      "shortName": "Death_LengthStay",
+      "description": "Number of days admitted to facility before death",
+      "valueType": "NUMBER",
+      "aggregationType": "SUM",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifWardDept",
+      "name": "Death Notification - Ward/Department",
+      "shortName": "Death_WardDept",
+      "description": "Ward or department where death occurred",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifAttendingPhysician",
+      "name": "Death Notification - Attending Physician/Health Worker",
+      "shortName": "Death_AttendingPhy",
+      "description": "Name or ID of attending physician/health worker",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifDiagnosis",
+      "name": "Death Notification - Clinical Diagnosis",
+      "shortName": "Death_Diagnosis",
+      "description": "Clinical diagnosis/conditions at admission",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifAutopsyPerformed",
+      "name": "Death Notification - Autopsy Performed",
+      "shortName": "Death_Autopsy",
+      "description": "Whether autopsy was performed",
+      "valueType": "BOOLEAN",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifVerfStatus",
+      "name": "Death Notification - Verification Status",
+      "shortName": "Death_VerfStatus",
+      "description": "Status of verification of death notification",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "optionSet": {
+        "id": "deathVerfStatusOptions"
+      },
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifReportingDate",
+      "name": "Death Notification - Reporting Date",
+      "shortName": "Death_ReportingDate",
+      "description": "Date when death was reported to the system",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifReportedBy",
+      "name": "Death Notification - Reported By",
+      "shortName": "Death_ReportedBy",
+      "description": "Person or system that reported the death",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifComments",
+      "name": "Death Notification - Comments/Notes",
+      "shortName": "Death_Comments",
+      "description": "Additional comments or clinical notes about the death",
+      "valueType": "LONG_TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "id": "deathNotifCounty",
+      "name": "Death Notification - County/District",
+      "shortName": "Death_County",
+      "description": "County or district of residence",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "TRACKER",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    }
+  ],
+  "optionSets": [
+    {
+      "id": "deathSexOptions",
+      "name": "Death Notification - Sex Options",
+      "version": "1.0",
+      "options": [
+        {
+          "id": "male",
+          "name": "Male",
+          "code": "M"
+        },
+        {
+          "id": "female",
+          "name": "Female",
+          "code": "F"
+        },
+        {
+          "id": "unknown",
+          "name": "Unknown",
+          "code": "U"
+        }
+      ]
+    },
+    {
+      "id": "deathPlaceOptions",
+      "name": "Death Notification - Place of Death Options",
+      "version": "1.0",
+      "options": [
+        {
+          "id": "healthFacility",
+          "name": "Health Facility/Hospital",
+          "code": "HF"
+        },
+        {
+          "id": "home",
+          "name": "Home",
+          "code": "H"
+        },
+        {
+          "id": "publicPlace",
+          "name": "Public Place",
+          "code": "PP"
+        },
+        {
+          "id": "roadAccident",
+          "name": "Road/Accident",
+          "code": "RA"
+        },
+        {
+          "id": "unknown",
+          "name": "Unknown",
+          "code": "U"
+        }
+      ]
+    },
+    {
+      "id": "deathVerfStatusOptions",
+      "name": "Death Notification - Verification Status Options",
+      "version": "1.0",
+      "options": [
+        {
+          "id": "pending",
+          "name": "Pending Verification",
+          "code": "PV"
+        },
+        {
+          "id": "verified",
+          "name": "Verified",
+          "code": "V"
+        },
+        {
+          "id": "rejected",
+          "name": "Rejected",
+          "code": "R"
+        }
+      ]
+    },
+    {
+      "id": "deathPrimaryCODOptions",
+      "name": "Death Notification - Primary Cause of Death Options",
+      "version": "1.0",
+      "options": [
+        {
+          "id": "a1",
+          "name": "Malaria",
+          "code": "B54"
+        },
+        {
+          "id": "a2",
+          "name": "Pneumonia",
+          "code": "J18"
+        },
+        {
+          "id": "a3",
+          "name": "Diarrheal Disease",
+          "code": "A09"
+        },
+        {
+          "id": "a4",
+          "name": "Tuberculosis",
+          "code": "A15"
+        },
+        {
+          "id": "a5",
+          "name": "HIV/AIDS",
+          "code": "B20"
+        },
+        {
+          "id": "a6",
+          "name": "Maternal Death",
+          "code": "O99"
+        },
+        {
+          "id": "a7",
+          "name": "Stroke",
+          "code": "I64"
+        },
+        {
+          "id": "a8",
+          "name": "Heart Attack",
+          "code": "I21"
+        },
+        {
+          "id": "a9",
+          "name": "Cancer",
+          "code": "C80"
+        },
+        {
+          "id": "a10",
+          "name": "Road Traffic Accident",
+          "code": "V89"
+        },
+        {
+          "id": "a11",
+          "name": "Suicide",
+          "code": "X84"
+        },
+        {
+          "id": "a12",
+          "name": "Violence/Homicide",
+          "code": "Y09"
+        },
+        {
+          "id": "a13",
+          "name": "Diabetes",
+          "code": "E14"
+        },
+        {
+          "id": "a14",
+          "name": "Unknown",
+          "code": "R99"
+        }
+      ]
+    },
+    {
+      "id": "deathFacilityOptions",
+      "name": "Death Notification - Health Facility Options",
+      "version": "1.0",
+      "options": [
+        {
+          "id": "f1",
+          "name": "Central Hospital",
+          "code": "CH"
+        },
+        {
+          "id": "f2",
+          "name": "Provincial Hospital",
+          "code": "PH"
+        },
+        {
+          "id": "f3",
+          "name": "District Hospital",
+          "code": "DH"
+        },
+        {
+          "id": "f4",
+          "name": "Health Center",
+          "code": "HC"
+        },
+        {
+          "id": "f5",
+          "name": "Private Health Facility",
+          "code": "PHF"
+        }
+      ]
+    }
+  ]
+}
