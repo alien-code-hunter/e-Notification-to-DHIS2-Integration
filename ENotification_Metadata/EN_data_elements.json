@@ -1,0 +1,180 @@
+{
+  "dataElements": [
+    {
+      "id": "EN_DateOfDeath",
+      "name": "EN - Date of Death",
+      "shortName": "EN_DateDeath",
+      "description": "Date when death occurred (from e-Notification)",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_PrimaryCauseOfDeath",
+      "name": "EN - Primary Cause of Death",
+      "shortName": "EN_PrimaryCOD",
+      "description": "Primary cause of death (ICD-10 code, from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_SecondaryCausesOfDeath",
+      "name": "EN - Secondary Causes of Death",
+      "shortName": "EN_SecondaryCOD",
+      "description": "Secondary/underlying causes of death (from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_PatientName",
+      "name": "EN - Patient Name",
+      "shortName": "EN_PatientName",
+      "description": "Patient's full name (from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_PatientSex",
+      "name": "EN - Patient Sex",
+      "shortName": "EN_Sex",
+      "description": "Biological sex of deceased patient (from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "optionSet": { "id": "EN_SexOptions" },
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_PatientDOB",
+      "name": "EN - Date of Birth",
+      "shortName": "EN_DOB",
+      "description": "Date of birth of deceased patient (from e-Notification)",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_AgeAtDeath",
+      "name": "EN - Age at Death",
+      "shortName": "EN_Age",
+      "description": "Age of patient at time of death (from e-Notification)",
+      "valueType": "NUMBER",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_PlaceOfDeath",
+      "name": "EN - Place of Death",
+      "shortName": "EN_PlaceDeath",
+      "description": "Location where death occurred (from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "optionSet": { "id": "EN_PlaceOptions" },
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_HealthFacility",
+      "name": "EN - Health Facility",
+      "shortName": "EN_HealthFacility",
+      "description": "Health facility where death occurred or was reported (from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "optionSet": { "id": "EN_FacilityOptions" },
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReportingDate",
+      "name": "EN - Reporting Date",
+      "shortName": "EN_ReportingDate",
+      "description": "Date when death was reported to the system (from e-Notification)",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReportedBy",
+      "name": "EN - Reported By",
+      "shortName": "EN_ReportedBy",
+      "description": "Person or system that reported the death (from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_VerificationStatus",
+      "name": "EN - Verification Status",
+      "shortName": "EN_VerfStatus",
+      "description": "Status of verification of death notification (from e-Notification)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "optionSet": { "id": "EN_VerfStatusOptions" },
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_Comments",
+      "name": "EN - Comments/Notes",
+      "shortName": "EN_Comments",
+      "description": "Additional comments or clinical notes about the death (from e-Notification)",
+      "valueType": "LONG_TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    }
+  ],
+  "optionSets": [
+    {
+      "id": "EN_SexOptions",
+      "name": "EN - Sex Options",
+      "options": [
+        { "id": "male", "name": "Male", "code": "M" },
+        { "id": "female", "name": "Female", "code": "F" },
+        { "id": "unknown", "name": "Unknown", "code": "U" }
+      ]
+    },
+    {
+      "id": "EN_PlaceOptions",
+      "name": "EN - Place of Death Options",
+      "options": [
+        { "id": "healthFacility", "name": "Health Facility/Hospital", "code": "HF" },
+        { "id": "home", "name": "Home", "code": "H" },
+        { "id": "publicPlace", "name": "Public Place", "code": "PP" },
+        { "id": "roadAccident", "name": "Road/Accident", "code": "RA" },
+        { "id": "unknown", "name": "Unknown", "code": "U" }
+      ]
+    },
+    {
+      "id": "EN_VerfStatusOptions",
+      "name": "EN - Verification Status Options",
+      "options": [
+        { "id": "pending", "name": "Pending Verification", "code": "PV" },
+        { "id": "verified", "name": "Verified", "code": "V" },
+        { "id": "rejected", "name": "Rejected", "code": "R" }
+      ]
+    },
+    {
+      "id": "EN_FacilityOptions",
+      "name": "EN - Health Facility Options",
+      "options": [
+        { "id": "f1", "name": "Central Hospital", "code": "CH" },
+        { "id": "f2", "name": "Provincial Hospital", "code": "PH" },
+        { "id": "f3", "name": "District Hospital", "code": "DH" },
+        { "id": "f4", "name": "Health Center", "code": "HC" },
+        { "id": "f5", "name": "Private Health Facility", "code": "PHF" }
+      ]
+    }
+  ]
+}

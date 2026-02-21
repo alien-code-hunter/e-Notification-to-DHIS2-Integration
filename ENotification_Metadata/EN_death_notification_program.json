@@ -1,0 +1,31 @@
+{
+  "programs": [
+    {
+      "id": "EN_DeathNotificationProgram",
+      "name": "EN - Death Notification",
+      "shortName": "EN_DeathNotif",
+      "description": "Event program for recording death notifications from e-Notification system.",
+      "programType": "EVENT",
+      "version": "2.37.10",
+      "dataElements": [
+        "EN_DateOfDeath",
+        "EN_PrimaryCauseOfDeath",
+        "EN_SecondaryCausesOfDeath",
+        "EN_PatientName",
+        "EN_PatientSex",
+        "EN_PatientDOB",
+        "EN_AgeAtDeath",
+        "EN_PlaceOfDeath",
+        "EN_HealthFacility",
+        "EN_ReportingDate",
+        "EN_ReportedBy",
+        "EN_VerificationStatus",
+        "EN_Comments"
+      ],
+      "categoryCombo": { "id": "bjDvmb4bfuf" },
+      "organisationUnits": "[Specify org units here]",
+      "eventCapture": true,
+      "trackedEntityType": null
+    }
+  ]
+}
