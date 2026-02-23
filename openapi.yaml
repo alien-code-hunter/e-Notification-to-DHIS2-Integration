@@ -4,7 +4,7 @@ info:
   version: "1.0"
   description: API for e-Notification to DHIS2 Integration
 servers:
-  - url: https://sandbox-dhis2.example.com/api/v1
+  - url: https://sandbox-dhis2.example.com/api/v1 // I will provide the actual DHIS2 API base URL once set up
 components:
   securitySchemes:
     OAuth2:
@@ -13,7 +13,7 @@ components:
         clientCredentials:
           tokenUrl: https://sandbox-dhis2.example.com/api/oauth2/token
           scopes: {}
-    BasicAuth:
+    BasicAuth: 
       type: http
       scheme: basic
   schemas:

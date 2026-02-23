@@ -11,6 +11,7 @@ This API allows the e-Notification system to push death notification data to the
 ### Method: OAuth 2.0 / Basic Authentication
 
 **Recommended: OAuth 2.0**
+**Actual endpoint domain, credentials, tokens etc,  will be sahred later**
 - Endpoint: `https://[dhis2-domain]/api/oauth2/token`
 - Grant Type: `client_credentials`
 - Headers:

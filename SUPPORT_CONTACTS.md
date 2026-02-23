@@ -1,9 +1,9 @@
 # Integration Support Contacts
 
-- **Jane Doe**
+- **Ms Leana Shailemo**
   - Role: DHIS2 Integration Lead
-  - Email: jane.doe@yourdomain.org
+  - Email: Leena.Shailemo@mhss.gov.na 
 
-- **John Smith**
-  - Role: API Technical Support
-  - Email: john.smith@yourdomain.org
+- **Mr Meduletu Kamati**
+  - Role: Lead Developer
+  - Email: Meduletu.Kamati@mhss.gov.na 

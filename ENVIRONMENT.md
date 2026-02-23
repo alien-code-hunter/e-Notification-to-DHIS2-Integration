@@ -10,7 +10,7 @@ List and describe all required environment variables for running the API server:
 - `WEBHOOK_SECRET`: Secret key for webhook validation.
 - `LOG_LEVEL`: Logging verbosity (info, debug, error).
 
-Create a `.env.example` file for reference:
+Create a `.env.example` file for reference (I will create this when setting up server):
 
 ```
 DB_CONNECTION_STRING=your-db-connection-string

@@ -1,0 +1,50 @@
+{
+  "externalId": "EN-2026-001-00001",
+  "patient": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "nationalId": "9876543210",
+    "dateOfBirth": "1975-08-20",
+    "sex": "F"
+  },
+  "deathDetails": {
+    "dateOfDeath": "2026-02-15",
+    "ageAtDeath": 50,
+    "placeOfDeath": "Health Facility",
+    "healthFacility": {
+      "facilityCode": "CH",
+      "facilityName": "Central Hospital",
+      "county": "Windhoek"
+    }
+  },
+  "medicalInfo": {
+    "primaryCauseOfDeath": {
+      "icd10Code": "I21.9",
+      "description": "Acute myocardial infarction, unspecified"
+    },
+    "secondaryCausesOfDeath": [
+      {
+        "icd10Code": "E11.9",
+        "description": "Type 2 diabetes mellitus without complications"
+      }
+    ],
+    "clinicalDiagnosis": "Heart attack with diabetes",
+    "autopsyPerformed": false
+  },
+  "admissionDetails": {
+    "dateOfAdmission": "2026-02-10",
+    "lengthOfStayDays": 5,
+    "wardDepartment": "Cardiology"
+  },
+  "reportingDetails": {
+    "reportingDate": "2026-02-16",
+    "reportedBy": "Dr. John Smith",
+    "reportingFacility": "Central Hospital",
+    "verificationStatus": "pending"
+  },
+  "additionalInfo": {
+    "comments": "Patient admitted with chest pain. Died after 5 days in hospital.",
+    "phoneNumber": "+264811234567",
+    "nextOfKin": "Mary Doe"
+  }
+}

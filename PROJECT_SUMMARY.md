@@ -119,13 +119,6 @@ While OpenHIM handles most integration, this document is still useful for:
 15. **Risk Assessment** - 7 key risks with probability/impact/mitigation
 16. **Success Metrics** - Operational, business, and security KPIs
 
-**Key Highlights:**
-- Initial setup cost: $100,000-200,000
-- Ongoing annual cost: $60,000-120,000
-- Implementation timeline: 8 months
-- Target uptime: 99.5%
-- Data security: AES-256 encryption at rest, TLS 1.3 in transit
-- Audit retention: 7 years minimum
 
 **How to Use:**
 1. Use as gap analysis checklist
