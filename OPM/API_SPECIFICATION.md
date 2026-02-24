@@ -381,7 +381,7 @@ GET /death-notifications?startDate=2024-02-01&endDate=2024-02-28&verificationSta
 }
 ```
 
-### Common HTTP Status Codes. We will test this when the test server is ready. 
+### Common HTTP Status Codes
 | Status | Meaning | Example |
 |--------|---------|---------|
 | 200 | OK | Successful GET/PUT |
@@ -395,7 +395,7 @@ GET /death-notifications?startDate=2024-02-01&endDate=2024-02-28&verificationSta
 
 ---
 
-## 6. Webhook/Callback (This is optional but recommented for Mr Van Staden's team)
+## 6. Webhook/Callback (Optional)
 
 The e-Notification system can register for callbacks to receive verification status updates.
 
@@ -430,7 +430,7 @@ POST /death-notifications/webhooks
 
 ## 7. Rate Limiting
 
-- **Rate Limit:** 1000 requests per hour per API key **we might increase this depending on need**
+- **Rate Limit:** 1000 requests per hour per API key
 - **Headers:**
   ```
   X-RateLimit-Limit: 1000
@@ -442,7 +442,7 @@ POST /death-notifications/webhooks
 
 ## 8. Data Mapping to DHIS2
 
-The API will automatically map incoming e-Notification data to DHIS2 Event entities:
+The API will automatically map incoming e-Notification data to DHIS2 Tracker entities:
 
 | e-Notification Field | DHIS2 Data Element | Notes |
 |---------------------|-------------------|-------|
@@ -500,7 +500,7 @@ curl -X POST https://dhis2-domain/api/v1/death-notifications \
 ## 10. Security Considerations
 
 1. **HTTPS Only** - All API calls must use HTTPS/TLS encryption
-2. **Authentication** - Use OAuth 2.0 with certificate-based validation. We can also use basic authentication, but oAuth 2.0 is recommented
+2. **Authentication** - Use OAuth 2.0 with certificate-based validation
 3. **Data Validation** - All inputs are validated server-side
 4. **Access Control** - Role-based permissions for verification
 5. **Audit Logging** - All API calls logged with timestamp and user ID

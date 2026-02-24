@@ -1,0 +1,85 @@
+openapi: 3.0.1
+info:
+  title: Death Notification API
+  version: "1.0"
+  description: API for e-Notification to DHIS2 Integration
+servers:
+  - url: https://sandbox-dhis2.example.com/api/v1 // I will provide the actual DHIS2 API base URL once set up
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: https://sandbox-dhis2.example.com/api/oauth2/token
+          scopes: {}
+    BasicAuth: 
+      type: http
+      scheme: basic
+  schemas:
+    DeathNotificationRequest:
+      type: object
+      properties:
+        externalId:
+          type: string
+        patient:
+          type: object
+          properties:
+            firstName: { type: string }
+            lastName: { type: string }
+            nationalId: { type: string }
+            dhis2PatientId: { type: string }
+            dateOfBirth: { type: string, format: date }
+            sex: { type: string, enum: [M, F, U] }
+      required: [externalId, patient]
+    DeathNotificationResponse:
+      type: object
+      properties:
+        status: { type: string }
+        message: { type: string }
+        data:
+          type: object
+          properties:
+            id: { type: string }
+            externalId: { type: string }
+    ErrorResponse:
+      type: object
+      properties:
+        status: { type: string }
+        statusCode: { type: integer }
+        message: { type: string }
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              field: { type: string }
+              message: { type: string }
+security:
+  - OAuth2: []
+  - BasicAuth: []
+paths:
+  /death-notifications:
+    post:
+      summary: Create Death Notification
+      security:
+        - OAuth2: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DeathNotificationRequest'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DeathNotificationResponse'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
