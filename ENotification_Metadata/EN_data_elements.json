@@ -11,6 +11,346 @@
       "categoryCombo": { "id": "bjDvmb4bfuf" }
     },
     {
+      "id": "EN_NotificationID",
+      "name": "EN - Notification ID",
+      "shortName": "EN_NotificationID",
+      "description": "Unique notification identifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NotificationDate",
+      "name": "EN - Notification Date",
+      "shortName": "EN_NotificationDate",
+      "description": "Date when notification was created (from NPRS)",
+      "valueType": "DATE",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NotificationType",
+      "name": "EN - Notification Type",
+      "shortName": "EN_NotificationType",
+      "description": "Type of notification (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NotificationSource",
+      "name": "EN - Notification Source",
+      "shortName": "EN_NotificationSource",
+      "description": "Source of notification (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NotificationStatus",
+      "name": "EN - Notification Status",
+      "shortName": "EN_NotificationStatus",
+      "description": "Status of notification (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_DeathID",
+      "name": "EN - Death ID",
+      "shortName": "EN_DeathID",
+      "description": "Unique death identifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_DeceasedNationalID",
+      "name": "EN - Deceased National ID",
+      "shortName": "EN_NationalID",
+      "description": "National ID of deceased (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_DeceasedPassportNumber",
+      "name": "EN - Deceased Passport Number",
+      "shortName": "EN_PassportNo",
+      "description": "Passport number of deceased (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_DeceasedAddress",
+      "name": "EN - Deceased Address",
+      "shortName": "EN_Address",
+      "description": "Address of deceased (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_DeceasedDistrict",
+      "name": "EN - Deceased District",
+      "shortName": "EN_District",
+      "description": "District of deceased (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_DeceasedProvince",
+      "name": "EN - Deceased Province",
+      "shortName": "EN_Province",
+      "description": "Province of deceased (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_DeceasedCountry",
+      "name": "EN - Deceased Country",
+      "shortName": "EN_Country",
+      "description": "Country of deceased (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_CertifierName",
+      "name": "EN - Certifier Name",
+      "shortName": "EN_CertifierName",
+      "description": "Name of certifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_CertifierTitle",
+      "name": "EN - Certifier Title",
+      "shortName": "EN_CertifierTitle",
+      "description": "Title of certifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_CertifierContact",
+      "name": "EN - Certifier Contact",
+      "shortName": "EN_CertifierContact",
+      "description": "Contact of certifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_CertifierFacility",
+      "name": "EN - Certifier Facility",
+      "shortName": "EN_CertifierFacility",
+      "description": "Facility of certifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_CertifierDistrict",
+      "name": "EN - Certifier District",
+      "shortName": "EN_CertifierDistrict",
+      "description": "District of certifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_CertifierProvince",
+      "name": "EN - Certifier Province",
+      "shortName": "EN_CertifierProvince",
+      "description": "Province of certifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_CertifierCountry",
+      "name": "EN - Certifier Country",
+      "shortName": "EN_CertifierCountry",
+      "description": "Country of certifier (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReporterName",
+      "name": "EN - Reporter Name",
+      "shortName": "EN_ReporterName",
+      "description": "Name of reporter (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReporterTitle",
+      "name": "EN - Reporter Title",
+      "shortName": "EN_ReporterTitle",
+      "description": "Title of reporter (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReporterContact",
+      "name": "EN - Reporter Contact",
+      "shortName": "EN_ReporterContact",
+      "description": "Contact of reporter (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReporterFacility",
+      "name": "EN - Reporter Facility",
+      "shortName": "EN_ReporterFacility",
+      "description": "Facility of reporter (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReporterDistrict",
+      "name": "EN - Reporter District",
+      "shortName": "EN_ReporterDistrict",
+      "description": "District of reporter (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReporterProvince",
+      "name": "EN - Reporter Province",
+      "shortName": "EN_ReporterProvince",
+      "description": "Province of reporter (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_ReporterCountry",
+      "name": "EN - Reporter Country",
+      "shortName": "EN_ReporterCountry",
+      "description": "Country of reporter (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NextOfKinName",
+      "name": "EN - Next of Kin Name",
+      "shortName": "EN_NOKName",
+      "description": "Name of next of kin (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NextOfKinRelationship",
+      "name": "EN - Next of Kin Relationship",
+      "shortName": "EN_NOKRelationship",
+      "description": "Relationship of next of kin (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NextOfKinContact",
+      "name": "EN - Next of Kin Contact",
+      "shortName": "EN_NOKContact",
+      "description": "Contact of next of kin (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NextOfKinAddress",
+      "name": "EN - Next of Kin Address",
+      "shortName": "EN_NOKAddress",
+      "description": "Address of next of kin (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NextOfKinDistrict",
+      "name": "EN - Next of Kin District",
+      "shortName": "EN_NOKDistrict",
+      "description": "District of next of kin (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NextOfKinProvince",
+      "name": "EN - Next of Kin Province",
+      "shortName": "EN_NOKProvince",
+      "description": "Province of next of kin (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NextOfKinCountry",
+      "name": "EN - Next of Kin Country",
+      "shortName": "EN_NOKCountry",
+      "description": "Country of next of kin (from NPRS)",
+      "valueType": "TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    },
+    {
+      "id": "EN_NotificationAttachments",
+      "name": "EN - Notification Attachments",
+      "shortName": "EN_Attachments",
+      "description": "Attachments related to notification (from NPRS)",
+      "valueType": "LONG_TEXT",
+      "aggregationType": "NONE",
+      "domainType": "EVENT",
+      "categoryCombo": { "id": "bjDvmb4bfuf" }
+    }
+    {
       "id": "EN_PrimaryCauseOfDeath",
       "name": "EN - Primary Cause of Death",
       "shortName": "EN_PrimaryCOD",
